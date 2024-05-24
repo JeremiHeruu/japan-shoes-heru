@@ -1,0 +1,435 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header{
+    background: radial-gradient(#fff,#8c9cfb);
+}
+
+.jerem{
+    flex: 1;
+    text-align: right;
+}
+
+ul.thim{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+ul.thim li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 30px;
+}
+
+ul.thim li a{
+    text-decoration: none;
+    color: #3f51b5;
+}
+
+a.jere:hover{
+    background-color: lightyellow;
+	color: black;
+}
+
+.text-box{
+    margin-top: 130px;
+    max-width: 600px;
+}
+
+.text-box h1{
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #3f51b5;
+}
+
+.text-box a{
+    display: inline-block;
+    text-decoration: none;
+    color: #FFF;
+    background: #3f51b5;
+    padding: 10px 30px;
+    font-size: 18px;
+    margin-top: 50px;
+    border-radius: 6px;
+}
+
+.user-box{
+    background: none;
+    position: absolute;
+    top: 0;
+    right: 12%;
+    z-index: 1;
+}
+
+.user-box img{
+    display: block;
+    padding-top: 100px;
+    width: 410px;
+    margin-bottom: -205px;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.heru{
+    flex: 1;
+    text-align: right;
+}
+
+ul.ivan{
+    display: inline-block;
+    list-style-type: none;
+}
+
+ul.ivan li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+a.as {
+    text-decoration: none;
+    color: #555;
+}
+
+
+
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.search-bar {
+    text-align: center;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-bottom: 1px solid #ddd; 
+}
+
+.search-bar input {
+    padding: 10px;
+    width: 300px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+}
+
+.search-bar button {
+    padding: 10px;
+    background-color: #3f51b5;
+    color: white;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+.search-bar button:hover {
+    background-color: #333;
+}
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.content {
+   max-width: 1080px;
+   margin: auto;
+   padding-left: 25px;
+   padding-right: 25px;
+}
+
+
+.product-section {
+    margin-top: 20px;
+}
+
+
+.filter-bar {
+    margin-bottom: 20px;
+}
+
+select {
+    padding: 8px;
+}
+
+.product-grid {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 20px;
+}
+
+.product-item {
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+    transition: transform 0.5s;
+}
+
+.product-item img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+}
+
+.product-item p{
+    font-size: 14px;
+}
+
+.product-item:hover{
+    transform: translateY(-5px);
+}
+
+button {
+    background-color: #3f51b5;
+    color: #fff;
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+.page-btn{
+    margin: 0 auto 80px;
+}
+
+.page-btn span{
+    display: inline-block;
+    border: 1px solid #3f51b5;
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+}
+
+.page-btn span:hover{
+    background: #3f51b5;
+    color: white;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.row-2{
+    justify-content: space-between;
+    margin: 100px auto 50px;
+}
+
+select{
+    border: 1px solid #3f51b5;
+    padding: 5px;
+}
+
+select:focus{
+    outline: none;
+}
+
+.col-2{
+    flex-basis: 50%;
+    min-width: 300px;
+}
+
+.col-2 img{
+    max-width: 100%;
+    padding: 10px 0;
+}
+
+.col-2 h1{
+    font-size: 50px;
+    line-height: 50px;
+    margin: 25px 0;
+}
+
+.btn{
+    display: inline-block;
+    background: #0e2ddc;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+}
+
+.footer-icons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer-icons a {
+    margin: 0 10px;
+}
+
+.footer-icons img {
+    width: 30px; 
+    height: 30px;
+}
+
+.footer-icons a:hover {
+    transform: scale(1.2);
+}
+
+.footer{
+    background: #000;
+    color: #8a8a8a;
+    font-size: 14px;
+    padding: 60px 0 20px;
+}
+
+.footer p{
+    color: #8a8a8a;
+}
+
+.footer h3{
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.footer-col-1, .footer-col-2, .footer-col-3, .footer-col-4{
+    min-width: 250px;
+    margin-bottom: 20px;
+}
+
+.footer-col-1{
+    flex-basis: 30%;
+}
+
+.footer-col-2{
+    flex: 1;
+    text-align: center;
+}
+
+.footer-col-2 img{
+    width: 180px;
+    margin-bottom: 20px;
+}
+
+.footer-col-3, .footer-col-4{
+    flex-basis: 12%;
+    text-align: center;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.foot{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-icons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer-icons a {
+    margin: 0 10px;
+}
+
+.footer-icons img {
+    width: 30px; 
+    height: 30px;
+}
+
+.footer-icons a:hover {
+    transform: scale(1.2); 
+}
+
+.footer-icons img {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s;
+}
+
+.footer-icons a:hover img {
+    filter: grayscale(100%); 
+}
+
+.app-logo{
+    margin-top: 20px;
+}
+
+.app-logo img{
+    width: 140px;
+}
+
+.menu-ikon{
+    width: 28px;
+    margin-left: 20px;
+    display: none;
+}
+
+@media only screen and (max-width: 800px){
+
+    nav ul{
+        position: absolute;
+        top: 70px;
+        left: 0;
+        background: #333;
+        width: 100%;
+        overflow: hidden;
+        transition: max-height 0.5s;
+    }
+    nav.jerem ul li{
+        display: block;
+        margin-right: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    nav.heru ul li{
+        display: block;
+        margin-right: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    nav ul.ivan li a{
+        color: #fff;
+
+    }
+
+    nav ul.thim li a{
+        color: #fff;
+
+    }
+
+
+    .menu-ikon{
+        display: block;
+        cursor: pointer;
+    }
+
+} 
+
+@media only screen and (max-width: 600px){
+    .row{
+        text-align: center;
+    }
+}
+
+    

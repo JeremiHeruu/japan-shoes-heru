@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heru Anime Shoe Store </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="gambar/LOGO 3.png" width="125px">
+                </div>
+                <nav class="jerem">
+                    <ul class="thim" id="MenuItems">
+                        <li><a class="jere" href="#">Home</a></li>
+                        <li><a class="jere" href="#">Product</a></li>
+                        <li><a class="jere" href="#">Contact</a></li>
+                        <li><a class="jere" href="#">Account</a></li>
+                    </ul>
+                </nav>
+
+                <img src="gambar/menu.png" class="menu-ikon" onclick="menutoggle()">
+            </div>
+            
+            <div class="row">
+                    <div class="col-2">
+                        <h1>Japanese Anime Shoes</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Debitis dolorem officia error tempore aut repudiandae quos, </p>
+                        <a href="jeremi.html" class="btn">Shop Now →</a>
+                    </div>
+                    <div class="col-2">
+                        <img src="gambar/yuji.png">
+                    </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="foot">
+        <p>&copy; 2023 Sepatu Anime Jepang Store. All rights reserved.</p>
+        <div class="footer-icons">
+            <a href="https://www.facebook.com/jeremy.sskbana" target="_blank"><img src="gambar/800px-Facebook_logo_(square).png" alt="Facebook"></a>
+            <a href="https://www.instagram.com/heru_jeremi" target="_blank"><img src="gambar/logi ig.png" alt="Instagram"></a>
+            <a href="https://wa.me/nomor-whatsapp-anda" target="_blank"><img src="gambar/logo wa 2.png" alt="WhatsApp"></a>
+        </div>
+    </footer>
+
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoggle(){
+            if(MenuItems.style.maxHeight == "0px")
+                {
+                    MenuItems.style.maxHeight = "200px";
+                }
+            else
+                {
+                    MenuItems.style.maxHeight = "0px";
+                }
+        }
+    </script>
+    
+</body>
+</html>
